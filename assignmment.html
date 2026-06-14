@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><!--atribute ie lang-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <style>
+    body{
+        margin:0;
+        padding:0;
+    }
+    img,video,audio,table{
+        max-width:100%;
+    }
+    div{
+        box-sizing:border-box;
+    }
+    nav ul{
+        display:flex;
+        justify-content: center;
+        list-style: none;
+        gap:40px;
+    }
+    aside{
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+    </style>
+</head>
+<body style="
+    background: linear-gradient(to right,#9aecdd,#ACB6E5) ;
+    color: brown;
+">
+<body>
+  <div style="
+   background: linear-gradient(to right,#56ab2f,#a8e063);
+   text-align:center;
+  ">
+    <h1><b>          INTRODUCTION TO WEB PROGRAMMING           </b></h1>
+    <h2><b>           NGIT College of Engineering             </b></h2>
+    <h3>  Subject:Web Programming | student Name: P.Akshay Sai    </h3>
+  </div>
+   <div  style="
+      background-color: aqua;
+      display:flex;
+      justify-content:center;
+      align-items:centre;
+      flex-wrap:wrap;
+      gap:calc15px;
+      padding:10px;
+   ">
+    <header id="Home">
+    <nav>
+        <ul>
+          <li><a href="#home"style="text-decoration:none;">Home</a></li>
+          <li><a href="#inttro"style="text-decoration:none;">Introduction</a></li>
+          <li><a href="#concepts"style="text-decoration:none;">Concepts</a></li>
+          <li><a href="#media"style="text-decoration:none;">Media</a></li>
+          <li><a href="#forms"style="text-decoration:none;">Forms</a></li>
+          <li><a href="#resources"style="text-decoration:none;">Resources</a></li>
+        </nav>
+    </nav>
+    </header>
+    
+   </div>
+    <br /><!--next line-->
+    <hr /><!--horizontal ruler-->
+    <main>
+        <section id="introduction">
+           <div style="
+            background-color: cadetblue;
+            color:yellow;
+            ">
+            <img 
+              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220630132824/HTML-Full-Form.jpg"
+              alt="HTML"
+              height="100"
+            /><!--alt refres to alternate if image not loaded-->
+            <br />
+            <big><b>Introduction</b></big><!--big text-->
+            <br />
+            <p>Web programming is the process of creating websites and web applications using tecchnologies like HTML,CSS,JavaScript and more.</p><!--small text-->
+           </div>
+        </section>
+        <hr />
+        <article id="concepts"style="background-color: rgb(226, 210, 189);">
+            <big style="color: red;">Web Concepts</big>
+            <br />
+            <table>
+                <tr>
+                    <th style="background-color: burlywood;">Concepts</th>
+                    <th style="background-color: burlywood;">Description</th>
+                </tr>
+                <tr>
+                    <td style="color:lightbrown;">Web Server</td>
+                    <td style="color:lightbrown;">Stores and delivers web pages to users.</td>
+                </tr>
+                <tr>
+                    <td style="color:lightbrown;">HTTP Request</td>
+                    <td>A request sent by the browser to the server.</td>
+                </tr>
+                <tr>
+                    <td style="color:lightbrown;">GET Method</td>
+                    <td>Retrives data from the server.</td>
+                </tr>
+                <tr>
+                    <td style="color:lightbrown;">POST Method</td>
+                    <td style="color:lightbrown;">Sends data securely to the server.</td>
+                </tr>
+
+            </table>
+
+            
+
+
+        </article>
+    </main>
+    <br />
+    <hr />
+    <aside id="media">
+    <div style="
+       background-color: lightblue;
+    ">
+    <big style="color: black;">Media Section</big>
+    <br >
+    <p><b>Video</b></p>
+    <br />
+    <video width="350" controls>
+        <source src="sample.mp4" type="video/mp4">
+    </video>
+    <br />
+    <p><b>Audio</b></p>
+    <br />
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+    </audio>
+
+    
+    <hr />
+    <big id="resources"style="color: black;">Quick Links</big>
+    <br />
+    <ul>
+    
+    <li><span ><a href="https://www.w3schools.com/html/default.asp"target="_main">W3Schools</a><!--other page link--></span></li>
+    <br />
+    <li><span ><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"target="_main">MDN Web Docs</a></span></li>
+    <br />
+    <li><span ><a href="https://www.udemy.com/topic/HTML/?utm_campaign=BG-Search_Keyword_Beta_Prof_la.EN_cc.India&utm_source=bing&utm_medium=paid-search&portfolio=Bing-India&utm_audience=mx&utm_tactic=nb&utm_term=_._ag_1323814388455178_._ad__._kw_learn%20HTML&utm_content=o&funnel=&test=&utm_campaign_id=638596189&msclkid=2cff4a34e85e1d49a20020223dd921b3"target="_main">Learn HTML</a></span></li>
+    <br />
+    <li><span><a href="https://www.w3schools.com/js/DEFAULT.asp"target="_main">JavaScript Tutorial</a></span></li>
+    </ul>
+    </aside>
+    <br/>
+    <div style="
+       background-color: black;
+    ">
+    <footer style="color:rgb(252, 252, 5);text-align:center;">                          @2026 web Programming assignment         </footer>
+    </div>
+</body>
+</html>
